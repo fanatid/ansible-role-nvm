@@ -21,7 +21,7 @@ No depedencies.
 ```
 - hosts: servers
   roles:
-    - role: nvm
+    - role: fanatid.nvm
       nvm:
         user: deploy
         version: v0.33.0
