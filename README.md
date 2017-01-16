@@ -8,9 +8,11 @@ git, build-essential, libssl-dev
 
 ## Role Variables
 
-  - `nvm.user` Remote user. Default value is `ansible_user`.
-  - `nvm.version` NVM version tag, or HEAD. Default is `v0.33.0`.
-  - `nvm.node_version` Node.js version. Default is `6.5.0`.
+  - `nvm.user` remote user
+  - `nvm.version` nvm version tag, or HEAD
+  - `nvm.node_version` node.js version
+
+You can find default values in [defaults/main.yml](https://github.com/fanatid/ansible-role-nvm/blob/master/defaults/main.yml)
 
 ## Dependencies
 
